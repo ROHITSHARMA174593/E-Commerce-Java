@@ -1,0 +1,4 @@
+http://localhost:8080/h2-console
+-> On this Path you can see your InMemory DB and it is run because of you have H2DB and JPA in your Maven(pom.xml)
+-> when you run your spring project you will see there a this type of data
+            ->  HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA , but yes the url can be different and larger than this i manually change this url in application.properties file === you can write this in this file ===>>> spring.datasource.url = jdbc:h2:mem:test
