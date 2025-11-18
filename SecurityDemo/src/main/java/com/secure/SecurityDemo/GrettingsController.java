@@ -11,9 +11,9 @@ public class GrettingsController {
         return "Hello";
     }
 
-    @GetMapping("/checker")
-    public String checkingOnGithub(){
-        return "Project Successfully working on Github...";
-    }
+//    @GetMapping("/checker")
+//    public String checkingOnGithub(){
+//        return "Project Successfully working on Github...";
+//    }
 
 }
