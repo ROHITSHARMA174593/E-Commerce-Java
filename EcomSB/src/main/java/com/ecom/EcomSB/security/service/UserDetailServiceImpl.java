@@ -1,13 +1,15 @@
 package com.ecom.EcomSB.security.service;
 
 import com.ecom.EcomSB.model.User;
-import com.ecom.EcomSB.repositories.UserRepository.UserRepository;
+import com.ecom.EcomSB.repositories.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserDetailServiceImpl implements UserDetailsService {
 
     @Autowired

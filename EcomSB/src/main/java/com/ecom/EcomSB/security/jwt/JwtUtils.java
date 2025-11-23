@@ -1,5 +1,6 @@
 package com.ecom.EcomSB.security.jwt;
 
+import com.ecom.EcomSB.security.service.UserDetailsImpl;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.MalformedJwtException;
@@ -81,4 +82,15 @@ public class JwtUtils {
         }
         return false;
     }
+
+//    public String generateTokenFromUsername(UserDetails userDetails) {
+//        String username = userDetails.getUsername();
+//        return Jwts.builder()
+//                .subject(username)
+//                .issuedAt(new Date())
+//                .expiration(new Date((new Date()).getTime() + jwtExpirationInMs))
+//                .signWith(key())
+//                .compact();
+//    }
+
 }
