@@ -91,7 +91,7 @@ public class WebSecurityConfig {
                         .requestMatchers("/v3/api-docs/**").permitAll()
                         .requestMatchers("/swagger-ui/**").permitAll()
                         //.requestMatchers("/api/admin/**").permitAll()
-                        //.requestMatchers("/api/public/**").permitAll()
+                        .requestMatchers("/api/public/**").permitAll()
                         .requestMatchers("/images/**").permitAll()
                         .requestMatchers("/api/test/**").permitAll()
                         .anyRequest().authenticated()   // <-- Only ONE anyRequest() allowed
