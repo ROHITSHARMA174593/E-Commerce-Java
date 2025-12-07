@@ -2,7 +2,7 @@ package com.ecom.EcomSB.controller;
 
 
 import com.ecom.EcomSB.config.AppConstants;
-import com.ecom.EcomSB.model.Category;
+
 import com.ecom.EcomSB.payload.CategoryDTO;
 import com.ecom.EcomSB.payload.CategoryResponse;
 import jakarta.validation.Valid;

@@ -2,7 +2,7 @@ package com.ecom.EcomSB.controller;
 
 
 import com.ecom.EcomSB.config.AppConstants;
-import com.ecom.EcomSB.model.Product;
+
 import com.ecom.EcomSB.payload.ProductDTO;
 import com.ecom.EcomSB.payload.ProductResponse;
 import com.ecom.EcomSB.service.ProductService;

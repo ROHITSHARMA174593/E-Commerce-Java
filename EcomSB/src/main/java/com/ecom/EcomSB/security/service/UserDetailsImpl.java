@@ -20,7 +20,6 @@ import java.util.stream.Collectors;
 
 @Data
 @NoArgsConstructor
-
 public class UserDetailsImpl implements UserDetails {
     @Serial
     private static final long serialVersionUID = 1L;
@@ -71,7 +70,7 @@ public class UserDetailsImpl implements UserDetails {
         return username;
     }
 
-    @SuppressWarnings("RedundantMethodOverride") // just remove the warning from the method you can check it using comment this line
+    @SuppressWarnings("RedundantMethodOverride")
     @Override
     public boolean isAccountNonExpired() {
         return true;
@@ -98,12 +97,13 @@ public class UserDetailsImpl implements UserDetails {
     @Override
     public boolean equals(Object o) {
         if(this == o) return true;
-
         if(o == null || getClass() != o.getClass()) return false;
-
         UserDetailsImpl user = (UserDetailsImpl) o;
         return Objects.equals(id, user.id);
+    }
 
-
-     }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
 }

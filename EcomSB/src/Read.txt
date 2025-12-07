@@ -6,3 +6,6 @@ http://localhost:8080/h2-console
 
 
 About POSTMAN : ek time ke baad hmaara signin wali jo jwt key hai vo expire ho jaati hai to hume baar baar jab jab data accept na kare postman me kahi se bhi ya kuch error ho to ek baar hume POSTMAN -> Authentication(Folder) -> SignIn (POST Request) isko ek baar run karna hai)
+
+
+Command : tree /f :: to show the complete file structure in terminal

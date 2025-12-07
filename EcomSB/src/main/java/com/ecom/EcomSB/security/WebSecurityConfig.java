@@ -56,7 +56,8 @@ public class WebSecurityConfig {
 //        return authenticationProvider;
 //    }
 
-    @Bean // todo Uper wala jo method hai vo deprecated ho chuka hai (purana || old) to uski jagah ye use kar sakte hai
+    @Bean 
+    @SuppressWarnings("deprecation")
     public AuthenticationProvider authenticationProvider() {
         DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
         provider.setUserDetailsService(userDetailService);
