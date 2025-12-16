@@ -199,7 +199,7 @@ public class ProductServiceImpl implements ProductService{
             return cartDTO;
         }).toList();
 
-        cartDTOS.forEach(cart -> cartService.updateProductInCart(cart.getCartId(), productId));
+        cartDTOS.forEach(cart -> cartService.updateProductInCarts(cart.getCartId(), productId));
 
         return modelMapper.map(savedProduct, ProductDTO.class);
     }

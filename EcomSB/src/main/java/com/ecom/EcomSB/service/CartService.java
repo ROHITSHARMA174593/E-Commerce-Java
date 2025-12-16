@@ -1,15 +1,12 @@
 package com.ecom.EcomSB.service;
 
-
 import com.ecom.EcomSB.payload.CartDTO;
+
 import jakarta.transaction.Transactional;
 
 import java.util.List;
 
-
 public interface CartService {
-
-
     CartDTO addProductToCart(Long productId, Integer quantity);
 
     List<CartDTO> getAllCarts();
@@ -21,5 +18,5 @@ public interface CartService {
 
     String deleteProductFromCart(Long cartId, Long productId);
 
-    void updateProductInCart(Long cartId, Long productId);
+    void updateProductInCarts(Long cartId, Long productId);
 }

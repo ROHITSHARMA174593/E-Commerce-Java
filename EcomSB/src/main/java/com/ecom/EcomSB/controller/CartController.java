@@ -23,21 +23,20 @@ public class CartController {
     private AuthUtil authUtil;
 
     @Autowired
-    CartService cartService;
+    private CartService cartService;
 
     @PostMapping("/carts/products/{productId}/quantity/{quantity}")
-    public ResponseEntity<CartDTO> addProductToCart(@PathVariable Long productId, @PathVariable Integer quantity){
+    public ResponseEntity<CartDTO> addProductToCart(@PathVariable Long productId,
+                                                    @PathVariable Integer quantity){
         CartDTO cartDTO = cartService.addProductToCart(productId, quantity);
-        return new ResponseEntity<>(cartDTO, HttpStatus.CREATED);
+        return new ResponseEntity<CartDTO>(cartDTO, HttpStatus.CREATED);
     }
 
     @GetMapping("/carts")
-    public ResponseEntity<List<CartDTO>> getCart(){
-        List<CartDTO> cartDTOS = cartService.getAllCarts();
-        return new ResponseEntity<List<CartDTO>>(cartDTOS, HttpStatus.FOUND);
-
+    public ResponseEntity<List<CartDTO>> getCarts() {
+        List<CartDTO> cartDTOs = cartService.getAllCarts();
+        return new ResponseEntity<List<CartDTO>>(cartDTOs, HttpStatus.FOUND);
     }
-
 
     @GetMapping("/carts/users/cart")
     public ResponseEntity<CartDTO> getCartById(){
@@ -48,17 +47,21 @@ public class CartController {
         return new ResponseEntity<CartDTO>(cartDTO, HttpStatus.OK);
     }
 
-    //todo : Update Product Quantity in Cart
     @PutMapping("/cart/products/{productId}/quantity/{operation}")
-    public ResponseEntity<CartDTO> updateCartProduct(@PathVariable Long productId, @PathVariable String operation){
-        CartDTO cartDTO = cartService.updateProductQuantityInCart(productId, operation.equalsIgnoreCase("delete") ? -1 : 1);
+    public ResponseEntity<CartDTO> updateCartProduct(@PathVariable Long productId,
+                                                     @PathVariable String operation) {
+
+        CartDTO cartDTO = cartService.updateProductQuantityInCart(productId,
+                operation.equalsIgnoreCase("delete") ? -1 : 1);
+
         return new ResponseEntity<CartDTO>(cartDTO, HttpStatus.OK);
     }
 
-    //todo : Delete the Cart Item
-    @DeleteMapping("/carts/{cartId}/products/{productId}")
-    public ResponseEntity<String> deleteProductFromCart(@PathVariable Long cartId, @PathVariable Long productId){
+    @DeleteMapping("/carts/{cartId}/product/{productId}")
+    public ResponseEntity<String> deleteProductFromCart(@PathVariable Long cartId,
+                                                        @PathVariable Long productId) {
         String status = cartService.deleteProductFromCart(cartId, productId);
+
         return new ResponseEntity<String>(status, HttpStatus.OK);
     }
 }

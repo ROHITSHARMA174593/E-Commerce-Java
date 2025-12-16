@@ -1,0 +1,641 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Users/Asus/.m2/wrapper/dists/apache-maven-3.9.11/03d7e36a140982eea48e22c1dcac01d8862b2550b2939e09a0809bbc5182a5bc/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.ecom:EcomSB >---------------------------
+[INFO] Building EcomSB 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ EcomSB ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ EcomSB ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 68 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/util/AuthUtil.java:[21,20] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/util/AuthUtil.java:[28,20] cannot find symbol
+  symbol:   method getUserId()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[73,69] cannot find symbol
+  symbol:   method getId()
+  location: variable userDetails of type com.ecom.EcomSB.security.service.UserDetailsImpl
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[86,58] cannot find symbol
+  symbol:   method getUsername()
+  location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[90,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[95,43] cannot find symbol
+  symbol:   method getPassword()
+  location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[102,30] cannot find symbol
+  symbol:   method getUsername()
+  location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[103,30] cannot find symbol
+  symbol:   method getEmail()
+  location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[108,45] cannot find symbol
+  symbol:   method getRole()
+  location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[137,13] cannot find symbol
+  symbol:   method setRoles(java.util.Set<com.ecom.EcomSB.model.Role>)
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[164,69] cannot find symbol
+  symbol:   method getId()
+  location: variable userDetails of type com.ecom.EcomSB.security.service.UserDetailsImpl
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/service/UserDetailsImpl.java:[47,50] cannot find symbol
+  symbol:   method getRoles()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/service/UserDetailsImpl.java:[50,21] cannot find symbol
+  symbol:   method getUserId()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/service/UserDetailsImpl.java:[51,21] cannot find symbol
+  symbol:   method getUserName()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/service/UserDetailsImpl.java:[52,21] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/service/UserDetailsImpl.java:[53,21] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/CartController.java:[45,27] cannot find symbol
+  symbol:   method getCartId()
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/OrderController.java:[28,32] cannot find symbol
+  symbol:   method getAddressId()
+  location: variable orderRequestDTO of type com.ecom.EcomSB.payload.OrderRequestDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/OrderController.java:[30,32] cannot find symbol
+  symbol:   method getPgName()
+  location: variable orderRequestDTO of type com.ecom.EcomSB.payload.OrderRequestDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/OrderController.java:[31,32] cannot find symbol
+  symbol:   method getPgPaymentId()
+  location: variable orderRequestDTO of type com.ecom.EcomSB.payload.OrderRequestDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/OrderController.java:[32,32] cannot find symbol
+  symbol:   method getPgStatus()
+  location: variable orderRequestDTO of type com.ecom.EcomSB.payload.OrderRequestDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/OrderController.java:[33,32] cannot find symbol
+  symbol:   method getPgResponseMessage()
+  location: variable orderRequestDTO of type com.ecom.EcomSB.payload.OrderRequestDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/exception/MyGlobalExceptionHandler.java:[34,35] constructor APIResponse in class com.ecom.EcomSB.payload.APIResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,boolean
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/exception/MyGlobalExceptionHandler.java:[42,35] constructor APIResponse in class com.ecom.EcomSB.payload.APIResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,boolean
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/WebSecurityConfig.java:[169,21] cannot find symbol
+  symbol:   method setRoles(java.util.Set<com.ecom.EcomSB.model.Role>)
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/WebSecurityConfig.java:[174,23] cannot find symbol
+  symbol:   method setRoles(java.util.Set<com.ecom.EcomSB.model.Role>)
+  location: variable seller of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/WebSecurityConfig.java:[179,22] cannot find symbol
+  symbol:   method setRoles(java.util.Set<com.ecom.EcomSB.model.Role>)
+  location: variable admin of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[31,41] cannot find symbol
+  symbol:   method getAddresses()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[33,13] cannot find symbol
+  symbol:   method setAddresses(java.util.List<com.ecom.EcomSB.model.Address>)
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[35,16] cannot find symbol
+  symbol:   method setUser(com.ecom.EcomSB.model.User)
+  location: variable address of type com.ecom.EcomSB.model.Address
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[59,39] cannot find symbol
+  symbol:   method getAddresses()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[68,41] cannot find symbol
+  symbol:   method getCity()
+  location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[69,44] cannot find symbol
+  symbol:   method getPincode()
+  location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[70,42] cannot find symbol
+  symbol:   method getState()
+  location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[71,44] cannot find symbol
+  symbol:   method getCountry()
+  location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[72,43] cannot find symbol
+  symbol:   method getStreet()
+  location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[73,49] cannot find symbol
+  symbol:   method getBuildingName()
+  location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[77,34] cannot find symbol
+  symbol:   method getUser()
+  location: variable addressFromDB of type com.ecom.EcomSB.model.Address
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[78,13] cannot find symbol
+  symbol:   method getAddresses()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[79,13] cannot find symbol
+  symbol:   method getAddresses()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[89,34] cannot find symbol
+  symbol:   method getUser()
+  location: variable addressFromDB of type com.ecom.EcomSB.model.Address
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[90,13] cannot find symbol
+  symbol:   method getAddresses()
+  location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[48,85] cannot find symbol
+  symbol:   method getCartId()
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[51,56] cannot find symbol
+  symbol:   method getProductName()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[54,20] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[55,43] cannot find symbol
+  symbol:   method getProductName()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[58,20] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[59,77] cannot find symbol
+  symbol:   method getProductName()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[60,71] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[65,20] cannot find symbol
+  symbol:   method setProduct(com.ecom.EcomSB.model.Product)
+  location: variable newCartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[66,20] cannot find symbol
+  symbol:   method setCart(com.ecom.EcomSB.model.Cart)
+  location: variable newCartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[67,20] cannot find symbol
+  symbol:   method setQuantity(java.lang.Integer)
+  location: variable newCartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[68,40] cannot find symbol
+  symbol:   method getDiscount()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[69,44] cannot find symbol
+  symbol:   method getSpecialPrice()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[73,36] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[75,32] cannot find symbol
+  symbol:   method getTotalPrice()
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[75,59] cannot find symbol
+  symbol:   method getSpecialPrice()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[81,40] cannot find symbol
+  symbol:   method getCartItems()
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[84,50] cannot find symbol
+  symbol:   method getProduct()
+  location: variable item of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[85,33] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable item of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[89,16] cannot find symbol
+  symbol:   method setProducts(java.util.List<com.ecom.EcomSB.payload.ProductDTO>)
+  location: variable cartDTO of type com.ecom.EcomSB.payload.CartDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[105,45] cannot find symbol
+  symbol:   method getCartItems()
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[108,20] cannot find symbol
+  symbol:   method setProducts(java.util.List<com.ecom.EcomSB.payload.ProductDTO>)
+  location: variable cartDTO of type com.ecom.EcomSB.payload.CartDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[124,13] cannot find symbol
+  symbol:   method getCartItems()
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[126,41] cannot find symbol
+  symbol:   method getCartItems()
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[129,16] cannot find symbol
+  symbol:   method setProducts(java.util.List<com.ecom.EcomSB.payload.ProductDTO>)
+  location: variable cartDTO of type com.ecom.EcomSB.payload.CartDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[139,32] cannot find symbol
+  symbol:   method getCartId()
+  location: variable userCart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[147,20] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[148,43] cannot find symbol
+  symbol:   method getProductName()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[151,20] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[152,77] cannot find symbol
+  symbol:   method getProductName()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[153,71] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[159,56] cannot find symbol
+  symbol:   method getProductName()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[163,35] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[173,45] cannot find symbol
+  symbol:   method getSpecialPrice()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[174,42] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[175,41] cannot find symbol
+  symbol:   method getDiscount()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[176,36] cannot find symbol
+  symbol:   method getTotalPrice()
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[176,64] cannot find symbol
+  symbol:   method getProductPrice()
+  location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[181,23] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable updatedItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[182,54] cannot find symbol
+  symbol:   method getCartItemId()
+  location: variable updatedItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[188,40] cannot find symbol
+  symbol:   method getCartItems()
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[191,50] cannot find symbol
+  symbol:   method getProduct()
+  location: variable item of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[192,33] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable item of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[197,16] cannot find symbol
+  symbol:   method setProducts(java.util.List<com.ecom.EcomSB.payload.ProductDTO>)
+  location: variable cartDTO of type com.ecom.EcomSB.payload.CartDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[210,13] cannot find symbol
+  symbol:   method setTotalPrice(double)
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[211,13] cannot find symbol
+  symbol:   method setUser(com.ecom.EcomSB.model.User)
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[230,32] cannot find symbol
+  symbol:   method getTotalPrice()
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[231,26] cannot find symbol
+  symbol:   method getProductPrice()
+  location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[231,55] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[235,37] cannot find symbol
+  symbol:   method getProduct()
+  location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[250,56] cannot find symbol
+  symbol:   method getProductName()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[253,32] cannot find symbol
+  symbol:   method getTotalPrice()
+  location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[254,28] cannot find symbol
+  symbol:   method getProductPrice()
+  location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[254,57] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[256,41] cannot find symbol
+  symbol:   method getSpecialPrice()
+  location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[259,28] cannot find symbol
+  symbol:   method getProductPrice()
+  location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[259,57] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CategoryServiceImpl.java:[52,25] cannot find symbol
+  symbol:   method setContent(java.util.List<com.ecom.EcomSB.payload.CategoryDTO>)
+  location: variable categoryResponse of type com.ecom.EcomSB.payload.CategoryResponse
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CategoryServiceImpl.java:[54,25] cannot find symbol
+  symbol:   method setPageNumber(int)
+  location: variable categoryResponse of type com.ecom.EcomSB.payload.CategoryResponse
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.409 s
+[INFO] Finished at: 2025-12-11T01:16:26+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project EcomSB: Compilation failure: Compilation failure: 
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/util/AuthUtil.java:[21,20] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/util/AuthUtil.java:[28,20] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[73,69] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable userDetails of type com.ecom.EcomSB.security.service.UserDetailsImpl
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[86,58] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[90,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[95,43] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[102,30] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[103,30] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[108,45] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable signUpRequest of type com.ecom.EcomSB.security.request.SignupRequest
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[137,13] cannot find symbol
+[ERROR]   symbol:   method setRoles(java.util.Set<com.ecom.EcomSB.model.Role>)
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/AuthController.java:[164,69] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable userDetails of type com.ecom.EcomSB.security.service.UserDetailsImpl
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/service/UserDetailsImpl.java:[47,50] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/service/UserDetailsImpl.java:[50,21] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/service/UserDetailsImpl.java:[51,21] cannot find symbol
+[ERROR]   symbol:   method getUserName()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/service/UserDetailsImpl.java:[52,21] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/service/UserDetailsImpl.java:[53,21] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/CartController.java:[45,27] cannot find symbol
+[ERROR]   symbol:   method getCartId()
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/OrderController.java:[28,32] cannot find symbol
+[ERROR]   symbol:   method getAddressId()
+[ERROR]   location: variable orderRequestDTO of type com.ecom.EcomSB.payload.OrderRequestDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/OrderController.java:[30,32] cannot find symbol
+[ERROR]   symbol:   method getPgName()
+[ERROR]   location: variable orderRequestDTO of type com.ecom.EcomSB.payload.OrderRequestDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/OrderController.java:[31,32] cannot find symbol
+[ERROR]   symbol:   method getPgPaymentId()
+[ERROR]   location: variable orderRequestDTO of type com.ecom.EcomSB.payload.OrderRequestDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/OrderController.java:[32,32] cannot find symbol
+[ERROR]   symbol:   method getPgStatus()
+[ERROR]   location: variable orderRequestDTO of type com.ecom.EcomSB.payload.OrderRequestDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/controller/OrderController.java:[33,32] cannot find symbol
+[ERROR]   symbol:   method getPgResponseMessage()
+[ERROR]   location: variable orderRequestDTO of type com.ecom.EcomSB.payload.OrderRequestDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/exception/MyGlobalExceptionHandler.java:[34,35] constructor APIResponse in class com.ecom.EcomSB.payload.APIResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,boolean
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/exception/MyGlobalExceptionHandler.java:[42,35] constructor APIResponse in class com.ecom.EcomSB.payload.APIResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,boolean
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/WebSecurityConfig.java:[169,21] cannot find symbol
+[ERROR]   symbol:   method setRoles(java.util.Set<com.ecom.EcomSB.model.Role>)
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/WebSecurityConfig.java:[174,23] cannot find symbol
+[ERROR]   symbol:   method setRoles(java.util.Set<com.ecom.EcomSB.model.Role>)
+[ERROR]   location: variable seller of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/security/WebSecurityConfig.java:[179,22] cannot find symbol
+[ERROR]   symbol:   method setRoles(java.util.Set<com.ecom.EcomSB.model.Role>)
+[ERROR]   location: variable admin of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[31,41] cannot find symbol
+[ERROR]   symbol:   method getAddresses()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[33,13] cannot find symbol
+[ERROR]   symbol:   method setAddresses(java.util.List<com.ecom.EcomSB.model.Address>)
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[35,16] cannot find symbol
+[ERROR]   symbol:   method setUser(com.ecom.EcomSB.model.User)
+[ERROR]   location: variable address of type com.ecom.EcomSB.model.Address
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[59,39] cannot find symbol
+[ERROR]   symbol:   method getAddresses()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[68,41] cannot find symbol
+[ERROR]   symbol:   method getCity()
+[ERROR]   location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[69,44] cannot find symbol
+[ERROR]   symbol:   method getPincode()
+[ERROR]   location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[70,42] cannot find symbol
+[ERROR]   symbol:   method getState()
+[ERROR]   location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[71,44] cannot find symbol
+[ERROR]   symbol:   method getCountry()
+[ERROR]   location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[72,43] cannot find symbol
+[ERROR]   symbol:   method getStreet()
+[ERROR]   location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[73,49] cannot find symbol
+[ERROR]   symbol:   method getBuildingName()
+[ERROR]   location: variable addressDTO of type com.ecom.EcomSB.payload.AddressDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[77,34] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable addressFromDB of type com.ecom.EcomSB.model.Address
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[78,13] cannot find symbol
+[ERROR]   symbol:   method getAddresses()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[79,13] cannot find symbol
+[ERROR]   symbol:   method getAddresses()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[89,34] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable addressFromDB of type com.ecom.EcomSB.model.Address
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/AddressServiceImpl.java:[90,13] cannot find symbol
+[ERROR]   symbol:   method getAddresses()
+[ERROR]   location: variable user of type com.ecom.EcomSB.model.User
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[48,85] cannot find symbol
+[ERROR]   symbol:   method getCartId()
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[51,56] cannot find symbol
+[ERROR]   symbol:   method getProductName()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[54,20] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[55,43] cannot find symbol
+[ERROR]   symbol:   method getProductName()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[58,20] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[59,77] cannot find symbol
+[ERROR]   symbol:   method getProductName()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[60,71] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[65,20] cannot find symbol
+[ERROR]   symbol:   method setProduct(com.ecom.EcomSB.model.Product)
+[ERROR]   location: variable newCartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[66,20] cannot find symbol
+[ERROR]   symbol:   method setCart(com.ecom.EcomSB.model.Cart)
+[ERROR]   location: variable newCartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[67,20] cannot find symbol
+[ERROR]   symbol:   method setQuantity(java.lang.Integer)
+[ERROR]   location: variable newCartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[68,40] cannot find symbol
+[ERROR]   symbol:   method getDiscount()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[69,44] cannot find symbol
+[ERROR]   symbol:   method getSpecialPrice()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[73,36] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[75,32] cannot find symbol
+[ERROR]   symbol:   method getTotalPrice()
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[75,59] cannot find symbol
+[ERROR]   symbol:   method getSpecialPrice()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[81,40] cannot find symbol
+[ERROR]   symbol:   method getCartItems()
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[84,50] cannot find symbol
+[ERROR]   symbol:   method getProduct()
+[ERROR]   location: variable item of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[85,33] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable item of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[89,16] cannot find symbol
+[ERROR]   symbol:   method setProducts(java.util.List<com.ecom.EcomSB.payload.ProductDTO>)
+[ERROR]   location: variable cartDTO of type com.ecom.EcomSB.payload.CartDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[105,45] cannot find symbol
+[ERROR]   symbol:   method getCartItems()
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[108,20] cannot find symbol
+[ERROR]   symbol:   method setProducts(java.util.List<com.ecom.EcomSB.payload.ProductDTO>)
+[ERROR]   location: variable cartDTO of type com.ecom.EcomSB.payload.CartDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[124,13] cannot find symbol
+[ERROR]   symbol:   method getCartItems()
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[126,41] cannot find symbol
+[ERROR]   symbol:   method getCartItems()
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[129,16] cannot find symbol
+[ERROR]   symbol:   method setProducts(java.util.List<com.ecom.EcomSB.payload.ProductDTO>)
+[ERROR]   location: variable cartDTO of type com.ecom.EcomSB.payload.CartDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[139,32] cannot find symbol
+[ERROR]   symbol:   method getCartId()
+[ERROR]   location: variable userCart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[147,20] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[148,43] cannot find symbol
+[ERROR]   symbol:   method getProductName()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[151,20] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[152,77] cannot find symbol
+[ERROR]   symbol:   method getProductName()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[153,71] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[159,56] cannot find symbol
+[ERROR]   symbol:   method getProductName()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[163,35] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[173,45] cannot find symbol
+[ERROR]   symbol:   method getSpecialPrice()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[174,42] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[175,41] cannot find symbol
+[ERROR]   symbol:   method getDiscount()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[176,36] cannot find symbol
+[ERROR]   symbol:   method getTotalPrice()
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[176,64] cannot find symbol
+[ERROR]   symbol:   method getProductPrice()
+[ERROR]   location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[181,23] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable updatedItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[182,54] cannot find symbol
+[ERROR]   symbol:   method getCartItemId()
+[ERROR]   location: variable updatedItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[188,40] cannot find symbol
+[ERROR]   symbol:   method getCartItems()
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[191,50] cannot find symbol
+[ERROR]   symbol:   method getProduct()
+[ERROR]   location: variable item of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[192,33] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable item of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[197,16] cannot find symbol
+[ERROR]   symbol:   method setProducts(java.util.List<com.ecom.EcomSB.payload.ProductDTO>)
+[ERROR]   location: variable cartDTO of type com.ecom.EcomSB.payload.CartDTO
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[210,13] cannot find symbol
+[ERROR]   symbol:   method setTotalPrice(double)
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[211,13] cannot find symbol
+[ERROR]   symbol:   method setUser(com.ecom.EcomSB.model.User)
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[230,32] cannot find symbol
+[ERROR]   symbol:   method getTotalPrice()
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[231,26] cannot find symbol
+[ERROR]   symbol:   method getProductPrice()
+[ERROR]   location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[231,55] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[235,37] cannot find symbol
+[ERROR]   symbol:   method getProduct()
+[ERROR]   location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[250,56] cannot find symbol
+[ERROR]   symbol:   method getProductName()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[253,32] cannot find symbol
+[ERROR]   symbol:   method getTotalPrice()
+[ERROR]   location: variable cart of type com.ecom.EcomSB.model.Cart
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[254,28] cannot find symbol
+[ERROR]   symbol:   method getProductPrice()
+[ERROR]   location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[254,57] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[256,41] cannot find symbol
+[ERROR]   symbol:   method getSpecialPrice()
+[ERROR]   location: variable product of type com.ecom.EcomSB.model.Product
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[259,28] cannot find symbol
+[ERROR]   symbol:   method getProductPrice()
+[ERROR]   location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CartServiceImpl.java:[259,57] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable cartItem of type com.ecom.EcomSB.model.CartItem
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CategoryServiceImpl.java:[52,25] cannot find symbol
+[ERROR]   symbol:   method setContent(java.util.List<com.ecom.EcomSB.payload.CategoryDTO>)
+[ERROR]   location: variable categoryResponse of type com.ecom.EcomSB.payload.CategoryResponse
+[ERROR] /D:/EcomSB/src/main/java/com/ecom/EcomSB/service/CategoryServiceImpl.java:[54,25] cannot find symbol
+[ERROR]   symbol:   method setPageNumber(int)
+[ERROR]   location: variable categoryResponse of type com.ecom.EcomSB.payload.CategoryResponse
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

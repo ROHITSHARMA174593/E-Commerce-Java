@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-public class AddresController {
+public class AddressController {
 
     @Autowired
     private AuthUtil authUtil;
