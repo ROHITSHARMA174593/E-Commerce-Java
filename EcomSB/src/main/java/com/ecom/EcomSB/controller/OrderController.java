@@ -4,6 +4,7 @@ import com.ecom.EcomSB.payload.OrderDTO;
 import com.ecom.EcomSB.payload.OrderRequestDTO;
 import com.ecom.EcomSB.service.OrderService;
 import com.ecom.EcomSB.util.AuthUtil;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,6 +20,7 @@ public class OrderController {
     @Autowired
     private AuthUtil authUtil;
 
+    @Tag(name = "Order API", description = "API for Managing Order")
     @PostMapping("/order/users/payments/{paymentMethod}")
     public ResponseEntity<OrderDTO> orderProducts(@PathVariable String paymentMethod, @RequestBody OrderRequestDTO orderRequestDTO){
         String emailId = authUtil.loggedInEmail();

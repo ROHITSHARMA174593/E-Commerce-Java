@@ -9,3 +9,12 @@ About POSTMAN : ek time ke baad hmaara signin wali jo jwt key hai vo expire ho j
 
 
 Command : tree /f :: to show the complete file structure in terminal
+
+todo : __________________________________________________________________________________________________
+todo : we creating a Jar file for uploading our application on Elastic Beanstalk (AWS) but for creating this jar file we use this command ::::    ./mvnw clean package    (but this command will run only once if you want to run this again than you need to delete your target folder completely)
+
+
+todo : We add swagger where any new developer can see All the EndPoints of our Application (just click on this link when the server is running locally)
+Link : http://localhost:5000/swagger-ui/index.html :
+ -> to achive this line we add an dependency in pom.xml and the complete ui for EndPoint is automatically generated
+ -> But make sure in your WebSecurityConfig file you add this line in SecurityFilterChain Method (where all the endpoints that you want to access without any authentication)   :         .requestMatchers("/swagger-ui/**").permitAll()
